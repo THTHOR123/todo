@@ -1,0 +1,110 @@
+/* App.css */
+
+/* Global styles */
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Todo container */
+  .Todo-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #777;
+  }
+  
+  .delete {
+    background-color: #ff4d4d;
+  }
+  
+  .delete:hover {
+    background-color: #ff6666;
+  }
+  
+  .todo-list {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #333;
+    margin-bottom: 10px;
+  }
+  
+  li div {
+    text-align: right;
+  }
+  
+  /* Dark theme */
+  body.dark-theme {
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .Todo-container.dark-theme {
+    background-color: #222;
+  }
+  
+  input[type="text"].dark-theme {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button.dark-theme {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  button.dark-theme:hover {
+    background-color: #777;
+  }
+  
+  .delete.dark-theme {
+    background-color: #ff4d4d;
+  }
+  
+  .delete.dark-theme:hover {
+    background-color: #ff6666;
+  }
+  
+  li.dark-theme {
+    background-color: #333;
+  }
